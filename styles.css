@@ -1168,19 +1168,14 @@ section.visible {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: url('images/selfimgbg.jpeg') center/cover no-repeat;
+    background: url('./selfimgbg.jpeg') center/cover no-repeat;
+    position: relative;
 }
 
 .about-content {
     display: flex;
     gap: 40px;
     align-items: center;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    width: 100%;
 }
 
 .about-text {
@@ -1201,9 +1196,6 @@ section.visible {
 
 .about-image {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .about-image img {
@@ -1212,27 +1204,14 @@ section.visible {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: block;
-}
-
-/* Dark Mode About Page */
-.dark-mode .about-content {
-    background: rgba(26, 26, 26, 0.9);
-}
-
-.dark-mode .about-text h1,
-.dark-mode .about-text p {
-    color: #fff7d6;
 }
 
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
-        padding: 20px;
     }
 
     .about-image img {
         max-width: 100%;
-        margin-top: 20px;
     }
 } 
