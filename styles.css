@@ -119,7 +119,7 @@ nav.scrolled .nav-links a {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('./WhatsApp Image 2025-03-29 at 9.46.02 AM.jpeg') center/cover no-repeat;
+    background: url('WhatsApp Image 2025-03-29 at 9.46.02 AM.jpeg') center/cover no-repeat;
     color: white;
     display: flex;
     align-items: center;
